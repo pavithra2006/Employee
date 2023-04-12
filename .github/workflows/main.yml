@@ -1,5 +1,5 @@
 name: daily-cron-workflow
-run-name: Check
+run-name: API Automation
 on:
   push:
     branches:
@@ -23,10 +23,10 @@ jobs:
         with:
           java-version : 11
       
-      - name :  checkout repo
+      - name : Checkout repo
         uses : actions/checkout@v3
         
-      - name : Run UI test
+      - name : Run API test
         run : |
           mvn clean test
         
