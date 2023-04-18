@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-18T14:59:22 UTC" name="All Test Suite" finished-at="2023-04-18T15:00:26 UTC" duration-ms="63700">
+    <groups>
+    </groups>
+    <test started-at="2023-04-18T14:59:22 UTC" name="Employee" finished-at="2023-04-18T15:00:26 UTC" duration-ms="63700">
+      <class name="com.employee.tests.GetTests">
+        <test-method signature="getEmployee(java.lang.reflect.Method)[pri:0, instance:com.employee.tests.GetTests@5fbdfdcf]" started-at="2023-04-18T14:59:22 UTC" name="getEmployee" finished-at="2023-04-18T15:00:26 UTC" duration-ms="63637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.employee.tests.GetTests.getEmployee(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployee -->
+      </class> <!-- com.employee.tests.GetTests -->
+    </test> <!-- Employee -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
