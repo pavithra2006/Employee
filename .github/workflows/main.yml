@@ -36,7 +36,10 @@ jobs:
     needs : [Run-API-Automation]
     steps:
       - name : Log failure
-        run : echo 'API automation failed, please check the logs'
+        run : |
+          echo 'API automation failed, please check the logs'
+          echo ${{secrets.MAIL_USERNAME}}
+          echo ${{secrets.MAIL_PASSWORD}}
         
   Trigger-email:
     runs-on: ubuntu-latest
