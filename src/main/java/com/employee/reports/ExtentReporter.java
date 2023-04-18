@@ -37,7 +37,9 @@ public final class ExtentReporter {
             extent.flush();
         ExtentManager.unloadExtTest();
 
-        if(!PropertiesUtils.getValue(ConfigProperties.ISGITHUBACTIONS).equalsIgnoreCase("yes")) {
+        String isRemote = System.getProperty("isRemote", "no");
+
+        if(!isRemote.equalsIgnoreCase("yes")) {
             try {
                 Desktop.getDesktop().browse(new File("index.html").toURI());
             } catch (IOException e) {

@@ -23,12 +23,13 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0</version>
                 <configuration>
+                    <systemProperties>
+                        <Property>
+                            <name>isRemote</name>
+                            <value>${isRemote}</value>
+                        </Property>
+                    </systemProperties>
                     <suiteXmlFiles>
-                        <!--                      To run give mvn clean test-->
-                        <!--                      mvn clean &#45;&#45; cleans target folder -->
-                        <!--                      runs pom.xml file-->
-                        <!--                        to run this install maven using brew, then go to target folder and do mvn clean test-->
-                        <!--                        if  testng.xml and pom.xml not in same path, then give relative path -->
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>

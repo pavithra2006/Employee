@@ -1,6 +1,5 @@
 package com.employee.enums;
 
 public enum ConfigProperties {
-    BASEURL,
-    ISGITHUBACTIONS;
+    BASEURL;
 }
