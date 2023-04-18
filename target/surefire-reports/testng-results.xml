@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-18T15:15:37 UTC" name="All Test Suite" finished-at="2023-04-18T15:23:44 UTC" duration-ms="487041">
+  <suite started-at="2023-04-18T15:48:17 UTC" name="All Test Suite" finished-at="2023-04-18T15:56:24 UTC" duration-ms="486911">
     <groups>
     </groups>
-    <test started-at="2023-04-18T15:15:37 UTC" name="Employee" finished-at="2023-04-18T15:23:44 UTC" duration-ms="487041">
+    <test started-at="2023-04-18T15:48:17 UTC" name="Employee" finished-at="2023-04-18T15:56:24 UTC" duration-ms="486911">
       <class name="com.employee.tests.PostTests">
-        <test-method signature="createEmployee(java.lang.reflect.Method)[pri:0, instance:com.employee.tests.PostTests@47987356]" started-at="2023-04-18T15:20:42 UTC" name="createEmployee" finished-at="2023-04-18T15:21:43 UTC" duration-ms="61000" status="PASS">
+        <test-method signature="createEmployee(java.lang.reflect.Method)[pri:0, instance:com.employee.tests.PostTests@22ef9844]" started-at="2023-04-18T15:53:23 UTC" name="createEmployee" finished-at="2023-04-18T15:54:24 UTC" duration-ms="60957" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createEmployee -->
-        <test-method signature="createEmployeeUsingJSONObject(java.lang.reflect.Method)[pri:0, instance:com.employee.tests.PostTests@47987356]" started-at="2023-04-18T15:21:43 UTC" name="createEmployeeUsingJSONObject" finished-at="2023-04-18T15:22:44 UTC" duration-ms="60497" status="PASS">
+        <test-method signature="createEmployeeUsingJSONObject(java.lang.reflect.Method)[pri:0, instance:com.employee.tests.PostTests@22ef9844]" started-at="2023-04-18T15:54:24 UTC" name="createEmployeeUsingJSONObject" finished-at="2023-04-18T15:55:24 UTC" duration-ms="60196" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createEmployeeUsingJSONObject -->
-        <test-method signature="createEmployeeFromExternalFile(java.lang.reflect.Method)[pri:0, instance:com.employee.tests.PostTests@47987356]" started-at="2023-04-18T15:22:44 UTC" name="createEmployeeFromExternalFile" finished-at="2023-04-18T15:23:44 UTC" duration-ms="60460" status="PASS">
+        <test-method signature="createEmployeeFromExternalFile(java.lang.reflect.Method)[pri:0, instance:com.employee.tests.PostTests@22ef9844]" started-at="2023-04-18T15:55:24 UTC" name="createEmployeeFromExternalFile" finished-at="2023-04-18T15:56:24 UTC" duration-ms="60200" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,7 +42,7 @@
         </test-method> <!-- createEmployeeFromExternalFile -->
       </class> <!-- com.employee.tests.PostTests -->
       <class name="com.employee.tests.GetTests">
-        <test-method signature="getEmployee(java.lang.reflect.Method)[pri:0, instance:com.employee.tests.GetTests@53fdffa1]" started-at="2023-04-18T15:15:37 UTC" name="getEmployee" finished-at="2023-04-18T15:16:40 UTC" duration-ms="62498" status="PASS">
+        <test-method signature="getEmployee(java.lang.reflect.Method)[pri:0, instance:com.employee.tests.GetTests@5562c41e]" started-at="2023-04-18T15:48:17 UTC" name="getEmployee" finished-at="2023-04-18T15:49:20 UTC" duration-ms="62949" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEmployee -->
-        <test-method signature="getEmployeeByID(int,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.employee.tests.GetTests@53fdffa1]" started-at="2023-04-18T15:16:40 UTC" name="getEmployeeByID" data-provider="getIdList" finished-at="2023-04-18T15:17:40 UTC" duration-ms="60540" status="PASS">
+        <test-method signature="getEmployeeByID(int,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.employee.tests.GetTests@5562c41e]" started-at="2023-04-18T15:49:20 UTC" name="getEmployeeByID" data-provider="getIdList" finished-at="2023-04-18T15:50:21 UTC" duration-ms="60423" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEmployeeByID -->
-        <test-method signature="getEmployeeByID(int,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.employee.tests.GetTests@53fdffa1]" started-at="2023-04-18T15:17:40 UTC" name="getEmployeeByID" data-provider="getIdList" finished-at="2023-04-18T15:18:41 UTC" duration-ms="60541" status="PASS">
+        <test-method signature="getEmployeeByID(int,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.employee.tests.GetTests@5562c41e]" started-at="2023-04-18T15:50:21 UTC" name="getEmployeeByID" data-provider="getIdList" finished-at="2023-04-18T15:51:21 UTC" duration-ms="60293" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEmployeeByID -->
-        <test-method signature="getEmployeeByID(int,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.employee.tests.GetTests@53fdffa1]" started-at="2023-04-18T15:18:41 UTC" name="getEmployeeByID" data-provider="getIdList" finished-at="2023-04-18T15:19:41 UTC" duration-ms="60402" status="PASS">
+        <test-method signature="getEmployeeByID(int,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.employee.tests.GetTests@5562c41e]" started-at="2023-04-18T15:51:21 UTC" name="getEmployeeByID" data-provider="getIdList" finished-at="2023-04-18T15:52:21 UTC" duration-ms="60310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEmployeeByID -->
-        <test-method signature="getEmployeeByID(int,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.employee.tests.GetTests@53fdffa1]" started-at="2023-04-18T15:19:41 UTC" name="getEmployeeByID" data-provider="getIdList" finished-at="2023-04-18T15:20:42 UTC" duration-ms="60516" status="PASS">
+        <test-method signature="getEmployeeByID(int,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.employee.tests.GetTests@5562c41e]" started-at="2023-04-18T15:52:21 UTC" name="getEmployeeByID" data-provider="getIdList" finished-at="2023-04-18T15:53:22 UTC" duration-ms="60321" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,11 +137,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEmployeeByID -->
-        <test-method signature="postmanGetCall()[pri:0, instance:com.employee.tests.GetTests@53fdffa1]" started-at="2023-04-18T15:20:42 UTC" name="postmanGetCall" finished-at="2023-04-18T15:20:42 UTC" duration-ms="183" status="PASS">
+        <test-method signature="postmanGetCall()[pri:0, instance:com.employee.tests.GetTests@5562c41e]" started-at="2023-04-18T15:53:22 UTC" name="postmanGetCall" finished-at="2023-04-18T15:53:22 UTC" duration-ms="550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postmanGetCall -->
-        <test-method signature="postmanGetAllWorkspaces()[pri:0, instance:com.employee.tests.GetTests@53fdffa1]" started-at="2023-04-18T15:20:42 UTC" name="postmanGetAllWorkspaces" finished-at="2023-04-18T15:20:42 UTC" duration-ms="339" status="PASS">
+        <test-method signature="postmanGetAllWorkspaces()[pri:0, instance:com.employee.tests.GetTests@5562c41e]" started-at="2023-04-18T15:53:22 UTC" name="postmanGetAllWorkspaces" finished-at="2023-04-18T15:53:23 UTC" duration-ms="624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postmanGetAllWorkspaces -->
