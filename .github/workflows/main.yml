@@ -71,4 +71,5 @@ jobs:
           body: |
                 Build job of ${{github.repository}} completed successfully! + some attachements
                 file://readme.md
+          html_body: file://README.html
           attachments: ./extent-test-output/index.html, RestAssured-Testng-Docker-Githubactions/.github/workflows/mail.yml
