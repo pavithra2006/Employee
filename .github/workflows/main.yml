@@ -28,7 +28,7 @@ jobs:
         
       - name : Run API test
         run : |
-          mvn clean test -DisRemote = yes
+          mvn clean test -DisRemote=yes
         
   Clean-up:
     runs-on: ubuntu-latest
