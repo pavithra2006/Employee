@@ -1,12 +1,12 @@
 # ONLY TO RUN TESTS
 
-mvn test -DisRemote = yes
+mvn clean test -DisRemote = yes
 
 # TO RUN AND OPEN TEST REPORT AUTOMATICALLY
 
-mvn test 
+mvn clean test 
   or
-mvn test -DisRemote = no  
+mvn clean test -DisRemote = no  
 
 
 
