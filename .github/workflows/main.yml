@@ -49,7 +49,7 @@ jobs:
         
   Trigger-email:
     runs-on: ubuntu-latest
-    needs : [ Run-API-Automation] 
+    #needs : [ Run-API-Automation] 
     steps: 
       - name: Send mail
         uses: dawidd6/action-send-mail@v3
@@ -59,14 +59,11 @@ jobs:
           server_port: 465
           # Optional whether this connection use TLS (default is true if server_port is 465)
           secure: true
-          # Optional (recommended) mail server username:
           username: ${{secrets.MAIL_USERNAME}}
-          # Optional (recommended) mail server password:
           password: ${{secrets.MAIL_PASSWORD}}
           # Required mail subject:
           subject: Github Actions API AUTOMATION job result
           to: pavi2098@gmail.com, pavithrasathya2098@gmail.com
           from: ABC ord  # <abc@org.com>
-          body: Build job of ${{github.repository}} completed successfully!
-          attachments: ./extent-test-output/index.html
- 
+          body: Build job of ${{github.repository}} completed successfully! + some attachements
+          attachments: ./extent-test-output/index.html, RestAssured-Testng-Docker-Githubactions/.github/workflows/mail.yml
