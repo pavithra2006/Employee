@@ -68,5 +68,7 @@ jobs:
           subject: Github Actions API AUTOMATION job result
           to: pavi2098@gmail.com, pavithrasathya2098@gmail.com
           from: ABC ord  # <abc@org.com>
-          body: Build job of ${{github.repository}} completed successfully! + some attachements
+          body: |
+                Build job of ${{github.repository}} completed successfully! + some attachements
+                file://readme.md
           attachments: ./extent-test-output/index.html, RestAssured-Testng-Docker-Githubactions/.github/workflows/mail.yml
