@@ -2,12 +2,12 @@
 <testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-18T15:04:15 UTC" name="All Test Suite" finished-at="2023-04-18T15:05:17 UTC" duration-ms="62809">
+  <suite started-at="2023-04-18T15:10:59 UTC" name="All Test Suite" finished-at="2023-04-18T15:12:02 UTC" duration-ms="63336">
     <groups>
     </groups>
-    <test started-at="2023-04-18T15:04:15 UTC" name="Employee" finished-at="2023-04-18T15:05:17 UTC" duration-ms="62809">
+    <test started-at="2023-04-18T15:10:59 UTC" name="Employee" finished-at="2023-04-18T15:12:02 UTC" duration-ms="63336">
       <class name="com.employee.tests.GetTests">
-        <test-method signature="getEmployee(java.lang.reflect.Method)[pri:0, instance:com.employee.tests.GetTests@505fc5a4]" started-at="2023-04-18T15:04:15 UTC" name="getEmployee" finished-at="2023-04-18T15:05:17 UTC" duration-ms="62749" status="PASS">
+        <test-method signature="getEmployee(java.lang.reflect.Method)[pri:0, instance:com.employee.tests.GetTests@505fc5a4]" started-at="2023-04-18T15:10:59 UTC" name="getEmployee" finished-at="2023-04-18T15:12:02 UTC" duration-ms="63286" status="PASS">
           <params>
             <param index="0">
               <value>
