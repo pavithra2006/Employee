@@ -57,6 +57,7 @@ jobs:
         
   Trigger-email:
     runs-on: ubuntu-latest
+    if: ${{ always() }}
     needs : [ Run-API-Automation] 
     steps: 
       - name : Checkout repo
