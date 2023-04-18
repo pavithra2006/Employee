@@ -1,3 +1,13 @@
-# TO VIEW OPEN REPORT AUTOMATICALLY WHILE RUNNING ON LOCAL
+# ONLY TO RUN TESTS
 
-Go to RestAssured-Testng-Docker-Githubactions/src/test/resources/config.properties, set 'isgithubactions' property value to 'no'
+mvn test -DisRemote = yes
+
+# TO RUN AND OPEN TEST REPORT AUTOMATICALLY
+
+mvn test 
+  or
+mvn test -DisRemote = no  
+
+
+
+
