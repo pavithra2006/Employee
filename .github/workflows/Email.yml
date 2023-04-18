@@ -1,5 +1,6 @@
-name: Run Automated Testcases
-run-name: API Automation
+name: Email
+run-name: EMail
+on:
   workflow_dispatch:
   
 jobs:
