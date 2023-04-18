@@ -1,6 +1,5 @@
 package com.employee.reports;
 
-import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
