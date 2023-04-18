@@ -127,6 +127,7 @@ public class GetTests {
 
         ExtentLogger.logResponse(response.prettyPrint());
 
+
         Assertions.assertThat(response.jsonPath().getList("workspaces")).hasSizeGreaterThan(0);
 
         JSONObject jsonObject = new JSONObject(response.asString());
