@@ -1,4 +1,4 @@
-name: daily-cron-workflow
+name: Run Automated Testcases
 run-name: API Automation
 on:
   push:
@@ -66,6 +66,7 @@ jobs:
           # Required mail subject:
           subject: Github Actions API AUTOMATION job result
           to: pavi2098@gmail.com, pavithrasathya2098@gmail.com
-          from: Luke Skywalker # <user@example.com>
+          from: ABC ord  # <abc@org.com>
           body: Build job of ${{github.repository}} completed successfully!
+          attachments: index.html
  
