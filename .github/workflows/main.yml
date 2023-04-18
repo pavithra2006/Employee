@@ -32,7 +32,7 @@ jobs:
         
   Clean-up:
     runs-on: ubuntu-latest
-    if : ${{failure()}}
+    
     needs : [Run-API-Automation]
     steps:
       - name : Log failure
