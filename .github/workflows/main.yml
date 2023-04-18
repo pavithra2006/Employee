@@ -49,7 +49,7 @@ jobs:
         
   Trigger-email:
     runs-on: ubuntu-latest
-    #needs : [ Run-API-Automation] 
+    needs : [ Run-API-Automation] 
     steps: 
       - name: Send mail
         uses: dawidd6/action-send-mail@v3
