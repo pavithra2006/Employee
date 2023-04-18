@@ -11,10 +11,13 @@ on:
     - cron: 0 0 * * *
      
 jobs:
-
   Run-API-Automation:
     timeout-minutes : 30
     runs-on: ubuntu-latest
+    
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the changed files back to the repository.
+        contents: write
     
     steps:
       - name : Checkout repo
@@ -23,6 +26,12 @@ jobs:
       - name : Run API test
         run : |
           mvn clean test -DisRemote=yes
+        
+      - name: Commit to master
+        uses: stefanzweifel/git-auto-commit-action@v4
+          with:
+            commit_message: Commit index.html
+
         
   Clean-up:
     runs-on: ubuntu-latest
