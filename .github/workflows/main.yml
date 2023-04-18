@@ -32,7 +32,7 @@ jobs:
         
   Clean-up:
     runs-on: ubuntu-latest
-    
+    if : ${{failure()}}
     needs : [Run-API-Automation]
     steps:
       - name : Log failure
@@ -40,6 +40,18 @@ jobs:
           echo 'API automation failed, please check the logs'
           echo ${{secrets.MAIL_USERNAME}}
           echo ${{secrets.MAIL_PASSWORD}}
+          
+  Trigger-UI-Automation: 
+    runs-on: ubuntu-latest
+    needs : [Run-API-Automation]
+    steps:
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: pavithra2006/Selenium-Testng-ExtentReport-Docker
+          event-type: my-event
+
         
   Trigger-email:
     runs-on: ubuntu-latest
