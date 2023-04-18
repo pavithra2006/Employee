@@ -26,14 +26,13 @@ jobs:
         
   Clean-up:
     runs-on: ubuntu-latest
-    if : ${{failure()}}
+    #if : ${{failure()}}
     needs : [Run-API-Automation]
     steps:
       - name : Log failure
         run : |
           echo 'API automation failed, please check the logs'
-          echo ${{secrets.MAIL_USERNAME}}
-          echo ${{secrets.MAIL_PASSWORD}}
+          echo ${GITHUB_WORKSPACE}
           
   Trigger-UI-Automation: 
     runs-on: ubuntu-latest
