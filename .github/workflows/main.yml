@@ -77,6 +77,6 @@ jobs:
           # Required mail subject:
           subject: Github Actions API AUTOMATION job result
           to: pavi2098@gmail.com, pavithrasathya2098@gmail.com
-          from: ABC ord  # <abc@org.com>
-          body: this is body
+          from: ABC ord  # <apiautomation@org.com>
+          body: Please find the attachment for test report
           attachments: ./index.html
