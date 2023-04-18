@@ -68,4 +68,4 @@ jobs:
           to: pavi2098@gmail.com, pavithrasathya2098@gmail.com
           from: ABC ord  # <abc@org.com>
           body: this is body
-          attachments: /home/runner/work/RestAssured-Testng-Docker-Githubactions/RestAssured-Testng-Docker-Githubactions/extent-test-output/index.html
+          attachments: ./*.html
