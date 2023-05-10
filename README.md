@@ -2,6 +2,7 @@
 
 mvn clean test -DisRemote = yes
 
+
 # TO RUN AND OPEN TEST REPORT AUTOMATICALLY
 
 mvn clean test 
